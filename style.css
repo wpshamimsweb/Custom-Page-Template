@@ -1,0 +1,677 @@
+/*
+ Theme Name:   Oneline Lite Child
+ Theme URI:    https://example.com/oneline-lite-child/
+ Description:  Child theme for the Oneline Lite theme
+ Author:       Al-Amin Shamim
+ Author URI:   https://amarwp.com/
+ Template:     oneline-lite
+ Version:      1.0.0
+*/
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('fonts/NotoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('fonts/NotoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('fonts/NotoSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('fonts/NotoSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('fonts/NotoSans-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('fonts/NotoSans-CondensedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, blockquote, pre, a, span, div {
+    font-family: 'Noto Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+div > p:not(.psudo-exclude){
+    margin: 0px 0px 10px 0px;
+}
+
+div > p:not(.psudo-exclude):last-child{
+    margin: 0px !important;
+}
+
+
+/*p, .entry-content p{*/
+/*    margin-bottom: 10px !important;  */
+    
+/*}*/
+.container
+.fs-caption {
+
+    width: 60%;
+    
+}
+#slider-div .caption-container span, #slider-div .caption-container .author-title {
+        font-size: 18px !important;
+    }
+.slides li{
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.caption-container h2.title {
+    font-weight: 700;
+    font-family: 'Noto Sans Condensed', sans-serif;
+}
+
+.header-top-bar {
+    position: relative;
+    height: 85px;
+    width: 1070px;
+    margin: 0 auto;
+
+    background: url('https://amarwp.com/farkas/wp-content/uploads/2024/04/ebene_00-e1714797636879.png') no-repeat center;
+    background-size: cover;
+ 
+    text-align: center;
+}
+
+
+.header-top-bar h1,
+.header-top-bar p {
+
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.header-top-bar p {
+    font-family: 'Noto Sans Condensed', sans-serif;
+    text-align: center;
+    
+}
+
+    .top-text-column-left p {
+    font-size: 23px;
+}
+    .top-text-column-right p {
+    font-size: 21px;
+}
+
+    .top-text-column-right{
+    margin-top: 5px;
+
+}
+
+.smaller .top-text-column-left p{
+    text-align: left !important;
+
+}
+
+.top-text-column {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.top-text-column-left {
+  text-align: left;
+  width: 25%;
+}
+
+.top-text-column-right {
+  text-align: right;
+  width: 75%;
+}
+
+#main-menu-wrapper{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.smaller #main-menu-wrapper {
+
+    padding: 10px;
+}
+#main-menu-wrapper .navigation{
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+
+.home .navigation ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Noto Sans', sans-serif;
+}
+.toggle-mobile-menu{
+    text-align: center !important;
+}
+.header{
+    position: relative;
+    top: 0px !important;
+    z-index: 999;
+  
+}
+.header .shadow-menu {
+    width: 1070px;
+    max-width: 1070px;
+    box-shadow: 0px 13px 13px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 13px 13px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 13px 13px -7px rgba(0,0,0,0.75);
+}
+
+.smaller #main-menu-wrapper {
+    width: 1070px;
+}
+section#testimonials, section#latest-post, section#woo-section, section#contact {
+    padding-top: 30px;
+    padding-bottom: 80px;
+
+}
+.section-navigate-background {
+    position: relative;
+    width: 100%;
+    background: url('https://amarwp.com/farkas/wp-content/uploads/2024/04/ebene_6.png') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 0px;
+    margin-top: 15px;
+    bottom: 22px;
+}
+
+.section-navigate-background-text {
+    font-family: 'Noto Sans', sans-serif !important;
+    font-size: 28px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 15px;
+    bottom: 23px;
+    position: relative;
+}
+.section-navigate-background-text span{
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
+.caption-container h2.title {
+    color: #ffffff;
+}
+.about-section {
+
+    overflow: hidden; 
+}
+
+.about-image {
+    float: left;
+    margin-right: 20px;
+
+}
+
+.about-image img {
+    display: block;
+    max-width: 250px;
+    height: auto;
+    margin-top: 20px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
+}
+
+.team-image img {
+    display: block;
+    width: 160px;
+    
+    max-height: 150px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.08), 0 2px 2px rgba(0,0,0,0.12), 0 4px 4px rgba(0,0,0,0.16), 0 8px 8px rgba(0,0,0,0.20);
+    border: 10px solid #ffffff;
+    margin-top: 20px;
+    
+}
+section#team{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.about-content {
+    font-size: 16px;
+    margin-left: 269px;
+    font-family: 'Noto Sans Condensed', sans-serif;
+}
+.about-content p, .project-description p, .team-content p, .box-desc p{
+    font-family: 'Noto Sans Condensed', sans-serif;
+}
+.team-content{
+    margin-top: 10px;
+    font-family: 'Noto Sans Condensed', sans-serif;
+}
+.team-section {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden; 
+}
+
+.team-image-part {
+    width: 20%; 
+
+}
+
+.team-content {
+    width: 80%; 
+}
+
+
+.team-section::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* Lightbox Styles */
+.lightbox {
+    display: block;
+    position: relative;
+}
+
+.lightbox img {
+    display: block;
+
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+.lightbox-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Project Section */
+.project-section {
+
+}
+
+/* Project Heading */
+.project-heading {
+    font-family: 'Noto Sans Condensed', sans-serif !important;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Project Description */
+.project-description {
+    
+    font-size: 16.5px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.project-box {
+    border: 2px solid green; /* Border applied to project boxes */
+    padding: 10px 30px 23px 30px;
+    margin-bottom: 20px;
+}
+.box-icon img {
+    margin-top: 20px;
+    width: 70%; 
+    height: auto; 
+    margin-right: 50px 0px;
+}
+
+.box-text {
+    font-family: 'Noto Sans Condensed', sans-serif !important;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #467151;
+}
+.box-title{
+    font-family: 'Noto Sans Condensed', sans-serif !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.box-text p{
+    color: #467151;
+}
+.box-text strong{
+    color: #467151;
+}
+/*.together{*/
+/*    margin-bottom: 120px;*/
+    
+/*}*/
+/*.together, #projects, .ways{*/
+/*    margin-top: 50px;*/
+/*}*/
+
+.home #contact .leadform-show-form.leadform-lite input, .home #contact .leadform-show-form.leadform-lite textarea, .home #contact .leadform-show-form.leadform-lite .select-type select {
+    text-transform: uppercase;
+}
+.fancybox-content img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.page-contact h2{
+    font-size: 32px;
+}
+.page-contact p{
+    font-size: 16px !important;
+}
+.cnt-sub-heading{
+    font-size: 14px;
+    font-family: 'Noto Sans Condensed', sans-serif !important;
+}
+.contact-block{
+    margin-top: 25px;
+}
+
+.author-title {
+        font-size: 16px !important;
+        color: white;
+        text-shadow: 0px 0px 7.2px rgba(18, 17, 12, 0.86);
+        font-family: 'Noto Sans Condensed', sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+.slider_qoute_title {
+        margin-bottom: 10px !important;
+        padding-bottom: 0px;
+    }
+
+@media screen and (min-width: 1025px) {
+    
+
+    .addrs,
+    .add-heading {
+        display: table;
+        margin: 0 auto;
+        text-align: center !important;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .top-text-column-right{
+    margin-top: 0px;
+
+}
+.section-navigate-background {
+    
+    padding: 22px 0px 17px 0px;
+    margin-top: 14px;
+    bottom: 17px;
+     padding-bottom: 7px !important;
+}
+
+    .box-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: -50px;
+    margin-left: 90px;
+}
+   .box-icon{
+    margin-bottom: 10px;
+}
+.team-image img {
+    display: block;
+    width: 130px;
+    max-height: 130px;
+}
+
+.header-top-bar {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    
+}
+.smaller .top-text-column-left p{
+    text-align: center !important;
+
+}
+    .team-image-part {
+    margin-right: 10px;
+    margin-left: 10px;
+
+     }
+
+    .team-content {
+    font-size: 11px !important;
+    width: 80%;
+    }
+    .team-image-part {
+    width: 20%;
+    float: none;
+    font-size: 14px;
+   }
+    .top-text-column {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+    /*.top-text-column-right{*/
+    /*    display: none;*/
+    /*}*/
+    .about-section {
+        padding: 0px 20px;
+    }
+
+    .about-image {
+        margin-right: 0;
+    }
+
+    .project-heading {
+        font-size: 20px;
+    }
+
+    .project-description {
+        font-size: 16px;
+    }
+
+    .box-text {
+        font-size: 14px;
+    }
+
+.cnt-sub-heading{
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+}
+    .project-box {
+    padding: 0px 20px 20px 20px;
+    display: block;
+}
+   .box-icon img {
+    width: 70px; 
+    max-width: none;
+}
+}
+
+@media only screen and (max-width: 768px) {
+        .header-top-bar p {
+    font-size: 20px !important;
+
+    
+}
+ .team-image-part {
+    justify-content: center;
+   }
+div > p:not(.psudo-exclude){
+    margin: 0px 0px 7px 0px;
+}
+.section-navigate-background {
+  padding: 20px 0px 0px 0px;
+   bottom: 16px;
+}
+.top-text-column-right p {
+    font-size: 16px !important;
+}
+
+    .project-box {
+    padding: 20px 0px;
+    display: block;
+}
+   .box-icon img {
+    width: 50px; 
+    max-width: none;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+}
+
+
+
+    .box-title {
+    font-size: 12px;
+    margin-top: -40px;
+    margin-left: 65px;
+    margin-right: 6px;
+}
+    html, body{
+        overflow-x: hidden;
+    }
+    .header-top-bar {
+        height: auto;
+    }
+    
+    .team-section {
+
+    flex-direction: column-reverse;
+}
+    .team-image-part {
+    display: flex;
+    width: 100%;
+    float: none;
+    font-size: 14px;
+    justify-content: center;
+   }
+.team-image img {
+    display: block;
+    width: 150px;
+    max-height: 150px;
+
+}
+
+  .team-image{
+    margin-right: 20px;
+  }
+    .team-content {
+    font-size: 11px !important;
+    width: 100%;
+    }
+    #slider-div .caption-container h2 {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+    #slider-div .caption-container span {
+        font-size: 16px !important;
+    }
+    
+
+    
+    .slider_qoute_title{
+        margin-bottom: 0px;
+        
+        
+    }
+
+    .header-top-bar p {
+        font-size: 20px;
+    }
+
+    .section-navigate-background-text {
+        font-size: 20px !important;
+    }
+    .project-section, .goal-content{
+        padding: 0px;
+    }
+
+    .about-image {
+        border-width: 5px;
+        display: table;
+    }
+    .about-image img{
+        max-width: 250px;
+    }
+
+    .about-content {
+        font-size: 12px;
+    }
+        .about-section {
+        padding: 0px 0;
+    }
+
+    .about-image {
+        float: none;
+        margin: 0 auto 20px;
+    }
+
+    .about-content {
+        margin: 0;
+    }
+
+    .project-heading {
+        font-size: 16px;
+    }
+
+    .project-description {
+        font-size: 14px;
+    }
+
+    .box-text {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+   .page-contact h2{
+    font-size: 22px;
+}
+.page-contact p{
+    font-size: 14px !important;
+}
+}
